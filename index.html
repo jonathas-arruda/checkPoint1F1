@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/img/sp.png" type="image/x-icon" />
     <link rel="stylesheet" href="style/style.css" />
     <title>São Paulo</title>
   </head>
@@ -12,35 +15,43 @@
         <img class="logo" src="assets/svg/logo.svg" />
         <div class="menu">
           <a href="">Home</a>
-          <a href="">Curiosidades</a>
-          <a href="">Video</a>
+          <a href="#curiosidades">Curiosidades</a>
+          <a href="#video">Video</a>
         </div>
       </nav>
     </header>
 
     <main class="conteudo">
-      <section class="banner"></section>
-      <section class="curiosidades">
+      <section class="banner">
+        <img class="rotina" src="assets/gif/rotina.gif" alt="" />
+      </section>
+      <section class="curiosidades" id="curiosidades">
         <div class="card"></div>
         <div class="card"></div>
         <div class="card"></div>
       </section>
-      <section class="video"></section>
+      <section class="video" id="video">
+        <iframe
+          class="vid"
+          src="https://www.youtube.com/embed/bQVhHNXvn7s"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
     </main>
 
     <footer>
       <div class="bg-footer">
-        <a
-          href=""
-          target="_blank"
-          ><img src="assets/img/instagram.png" class="icon"
+          <a href="https://www.instagram.com/prefsp/" target="_blank"
+            ><img src="assets/svg/instagram.svg" class="icon"
+          /></a>
+
+          <a
+          href="https://www.youtube.com/user/prefeiturasaopaulo" target="_blank"
+          ><img src="assets/svg/youtube.svg" class="icon"
         /></a>
-        <a
-          href=""
-          target="_blank"
-          ><img src="assets/img/youtube.png" class="icon"
-        /></a>
-      </div>
     </footer>
   </body>
 </html>
