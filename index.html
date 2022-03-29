@@ -1,57 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="assets/img/sp.png" type="image/x-icon" />
-    <link rel="stylesheet" href="style/style.css" />
-    <title>São Paulo</title>
-  </head>
 
-  <body>
-    <header class="topo">
-      <nav class="cabecalho">
-        <img class="logo" src="assets/svg/logo.svg" />
-        <div class="menu">
-          <a href="">Home</a>
-          <a href="#curiosidades">Curiosidades</a>
-          <a href="#video">Video</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/img/sp.png" type="image/x-icon" />
+  <link rel="stylesheet" href="style/style.css" />
+  <title>São Paulo</title>
+</head>
+
+<body>
+  <header class="topo">
+    <nav class="cabecalho">
+      <img class="logo" src="assets/svg/logo.svg" />
+      <div class="menu">
+        <a href="">Home</a>
+        <a href="#curiosidades">Curiosidades</a>
+        <a href="#video">Video</a>
+      </div>
+    </nav>
+  </header>
+  
+  <main class="conteudo">
+    <section class="banner">
+      <img class="rotina" src="assets/img/sp-capa.jpg" alt="" />
+    </section>
+    
+    <h2 id="curiosidades">Curiosidades</h2>
+    
+    <section class="curiosidades" >
+
+      <div class="card-cont">
+        <img src="assets/img/pizza.jpg" alt="">
+        <div class="mini-block">
+          <h3>Os Paulistas consomem mais de 1 milhão de pizzas por dia</h3>
         </div>
-      </nav>
-    </header>
+      </div>
 
-    <main class="conteudo">
-      <section class="banner">
-        <img class="rotina" src="assets/gif/rotina.gif" alt="" />
-      </section>
-      <section class="curiosidades" id="curiosidades">
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-      </section>
-      <section class="video" id="video">
-        <iframe
-          class="vid"
-          src="https://www.youtube.com/embed/bQVhHNXvn7s"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </section>
-    </main>
+      <div class="card-cont-meio">
+        <img src="assets/img/helicoptero.jpg" alt="">
+        <div class="mini-block">
+          <h3>A cidade com o maior número de helicópteros do mundo</h3>
+        </div>
+      </div>
 
-    <footer>
-      <div class="bg-footer">
-          <a href="https://www.instagram.com/prefsp/" target="_blank"
-            ><img src="assets/svg/instagram.svg" class="icon"
-          /></a>
+      <div class="card-cont">
+        <img src="assets/img/image 4.jpg" alt="">
+        <div class="mini-block">
+          <h3> O metrô de São Paulo está entre os 10 melhores do mundo</h3>
+        </div>
+      </div>
 
-          <a
-          href="https://www.youtube.com/user/prefeiturasaopaulo" target="_blank"
-          ><img src="assets/svg/youtube.svg" class="icon"
-        /></a>
-    </footer>
-  </body>
+    </section>
+
+    <h2 id="video">Video</h2>
+
+    <section class="video" >
+      <iframe width="100%" height="500" src="https://www.youtube.com/embed/9cKDcL-XX-I" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <div class="bg-footer">
+      <a href="https://www.instagram.com/prefsp/" target="_blank"><img src="assets/svg/instagram.svg"
+          class="icon" /></a>
+
+      <a href="https://www.youtube.com/user/prefeiturasaopaulo" target="_blank"><img src="assets/svg/youtube.svg"
+          class="icon" /></a>
+  </footer>
+</body>
+
 </html>
