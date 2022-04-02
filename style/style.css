@@ -62,17 +62,28 @@ h2{
   align-items: center;
 }
 .banner {
-  width: 60%;
+  background-image: url(../assets/img/sp-capa.jpg);
+  width: 100%;
   height: 500px;
-  background-color: rgb(0, 0, 0, 0.1);
-  display: flex;
-  justify-content: center;
-  margin: 20px  0 ;
-
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
 }
+
 .rotina{
   width: 80%; 
   height:100%;  
+}
+
+.sub-titulo {
+  width: 60%;
+  height: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: rgb(0, 0, 0, 0.7);
+  border-bottom: 2px solid #8257E6;  
 }
 
 .curiosidades {
@@ -81,7 +92,7 @@ h2{
   background-color: rgb(0, 0, 0, 0.5);
   display: flex;
   justify-content: space-around;
-  margin: 20px  0 ;
+  margin: 10px  0 ;
   gap: 10px;
 }
 
@@ -96,23 +107,22 @@ h2{
 .mini-block{
   width: 100%;
   height: 85px;
-  background: rgb(0, 0, 0, 0.5);
+  background-color: rgb(0, 0, 0, 0.8);
   color: white;
   font-size:22px;
-  border-top: 8px solid #8257E6;  
+  border-top: 6px solid #8257E6;  
   position: relative;
   margin-top:-85px ;
 }
+.mini-block > h3{
+  margin: 10px;
+}
 
 .video {
-  margin: 30px  0 ;
+  margin: 10px  0 ;
   width: 60%;
   height: 500px;
- background-color: rgb(204, 209, 255);
-}
-.vid {
-  width: 100%;
-  height: 100%;
+  background-color: rgb(204, 209, 255);
 }
 .icon {
   margin: 20px;
@@ -121,7 +131,7 @@ h2{
 }
 
 .bg-footer {
-  height: 400px;
+  height: 200px;
   width: 100%;
   background-color: #121214;
   display: flex;
